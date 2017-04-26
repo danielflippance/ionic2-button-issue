@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { CompanyMobileApp } from './app.component';
 import { MyPage } from '../pages/mypage/mypage';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
@@ -9,6 +10,7 @@ import { MyPage } from '../pages/mypage/mypage';
     MyPage,
   ],
   imports: [
+    BrowserModule,
     IonicModule.forRoot(CompanyMobileApp)
   ],
   bootstrap: [IonicApp],
