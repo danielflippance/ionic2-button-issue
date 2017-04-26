@@ -1,5 +1,5 @@
-Ionic 2 Button Click Issue
-==========================
+Ionic 3.1.0 Button Click Issue
+==============================
 
 Steps to reproduce - See Video 1
 
